@@ -1,0 +1,1408 @@
+[18-Nov-2014 16:31:43 UTC] PHP Fatal error:  Class 'OAuth' not found in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 17:24:10 UTC] PHP Fatal error:  Class 'OAuth' not found in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 17:48:49 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 17:48:49 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 17:48:49 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 17:48:49 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 17:48:49 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=1829732635546b868188ebf3.23910845&oauth_timestamp=1416332929&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=cZN06nnD4nf5vTzDT9Tjll4Hp4A%3D
+    [header_size] => 720
+    [request_size] => 598
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.188666
+    [namelookup_time] => 0.006417
+    [connect_time] => 0.028348
+    [pretransfer_time] => 0.028467
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 180
+    [speed_upload] => 980
+    [download_content_length] => 34
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.188621
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DcVhtnWvbS41iD1IQgoNBrDN-WoNY%26_now%3D1416332929%26_slt%3DpPKMHgxe%26_kid%3D1%26_ver%3D1%26_mac%3DLmavefIxuouEMdeV95ozVZ6uSZidkKqb9fTGTJYA2oo.; expires=Sat, 19-Dec-2015 10:07:09 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: Abs4RBSbhVULnK_Lm-Hjp3R50oL9
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 34
+Accept-Ranges: bytes
+Date: Tue, 18 Nov 2014 17:48:49 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-sjc3124-SJC
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416332929.642900467,VS0,VE120
+Vary: Accept-Encoding
+
+)
+
+[18-Nov-2014 19:32:20 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:20 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:20 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:32:20 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:32:20 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=655197875546b9ec48894e5.90216257&oauth_timestamp=1416339140&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=sbo5VKmlFup2EqdZIgSAyJmLnZ0%3D
+    [header_size] => 526
+    [request_size] => 597
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.147664
+    [namelookup_time] => 0.00516
+    [connect_time] => 0.007364
+    [pretransfer_time] => 0.007424
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 230
+    [speed_upload] => 1252
+    [download_content_length] => -1
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.147587
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: xTgsXzFAGjDWgr_-KaUyvykSM2pG
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:32:20 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DJ0nMz3pehIsV_qeq5Q9FK6Le2H9f%26_now%3D1416339140%26_slt%3Dpvecejhn%26_kid%3D1%26_ver%3D1%26_mac%3Din0eepHU7aTUyFGioVrSOrTBh5RjWbzsJ2bNokT5BpY.; expires=Sat, 19-Dec-2015 11:50:40 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:32:22 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:22 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:22 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:32:22 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:32:22 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=260152350546b9ec69e2d30.18843827&oauth_timestamp=1416339142&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=QZ%2FipJq5C3GneV311qkAcGQ8xOg%3D
+    [header_size] => 526
+    [request_size] => 599
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.130264
+    [namelookup_time] => 0.005139
+    [connect_time] => 0.007305
+    [pretransfer_time] => 0.007362
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 261
+    [speed_upload] => 1420
+    [download_content_length] => -1
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.130115
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: sUMfg7i9HyE2wfnE8F18Ctr8hgfR
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:32:22 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3D6DXlEQzRt_7VGPwkA8NA7GDhjrNX%26_now%3D1416339142%26_slt%3D0JxEGDzu%26_kid%3D1%26_ver%3D1%26_mac%3DmvzOd60nhhIvQxdCWwExpy2bKBNeoaznRAmrwkPFPYE.; expires=Sat, 19-Dec-2015 11:50:42 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:32:22 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:22 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:22 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:32:22 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:32:22 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=765103925546b9ec6d12e49.36152380&oauth_timestamp=1416339142&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=0PEKRjJ4qtMNhxui4AUUl2rF91A%3D
+    [header_size] => 526
+    [request_size] => 597
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.139918
+    [namelookup_time] => 0.005176
+    [connect_time] => 0.00742
+    [pretransfer_time] => 0.007476
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 242
+    [speed_upload] => 1322
+    [download_content_length] => -1
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.139832
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: GVeSmUC1oBR2kkgLDQHWGCPhq-8R
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:32:23 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DOkdm5hGtYqsqDGTm_ObBYS0QeWmv%26_now%3D1416339142%26_slt%3DIjhHfpXa%26_kid%3D1%26_ver%3D1%26_mac%3DPGpHVGKNqvANcztPFqo-vFHQHWHy0iT9M3Yf9oVpOy0.; expires=Sat, 19-Dec-2015 11:50:42 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:32:23 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:23 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:23 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:32:23 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:32:23 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=135886293546b9ec70557b2.34293808&oauth_timestamp=1416339143&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=g4Fwk4IZ2400FLvzb1lCv46wwM0%3D
+    [header_size] => 526
+    [request_size] => 597
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.170263
+    [namelookup_time] => 0.005772
+    [connect_time] => 0.015986
+    [pretransfer_time] => 0.016045
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 199
+    [speed_upload] => 1086
+    [download_content_length] => -1
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.17019
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: KFnTgSsUeU_EIc0AYG_rN1elTaeA
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:32:23 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3Dl705rh8ObY0aoW3fmFQTOJpGeA1V%26_now%3D1416339143%26_slt%3DmhnZKI_c%26_kid%3D1%26_ver%3D1%26_mac%3DzqP_SrgF6zr8LuT1BO6Mk-H6xHev34Npln0mY3sBU_s.; expires=Sat, 19-Dec-2015 11:50:43 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:32:27 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:27 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:32:27 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:32:27 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:32:27 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=1423739350546b9ecb2d3326.34600262&oauth_timestamp=1416339147&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=OJNasJFKX2u%2F0OYX9Wl1LgZ8AKM%3D
+    [header_size] => 526
+    [request_size] => 600
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.194099
+    [namelookup_time] => 0.005516
+    [connect_time] => 0.008179
+    [pretransfer_time] => 0.008239
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 175
+    [speed_upload] => 953
+    [download_content_length] => -1
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.19394
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: 1dpRO-TIBTiZGiD9i41s8Ce9PRWp
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:32:27 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DukMAFudsjfgDXBXD-ufLYVUCVjb8%26_now%3D1416339147%26_slt%3DJvkjBh9w%26_kid%3D1%26_ver%3D1%26_mac%3Dl_Jhx1_f48D5FUbFJjchlYJl6sGs5vChRtSHEUEONVs.; expires=Sat, 19-Dec-2015 11:50:47 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:36:41 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:36:41 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:36:41 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:36:41 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:36:41 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=1773461378546b9fc9c0a5d2.57482706&oauth_timestamp=1416339401&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=%2B9N9PUXjSsZ6fmd%2FjW1ULhc%2Bm4U%3D
+    [header_size] => 526
+    [request_size] => 604
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.174824
+    [namelookup_time] => 0.029311
+    [connect_time] => 0.031525
+    [pretransfer_time] => 0.031611
+    [size_upload] => 185
+    [size_download] => 34
+    [speed_download] => 194
+    [speed_upload] => 1058
+    [download_content_length] => -1
+    [upload_content_length] => 185
+    [starttransfer_time] => 0.17475
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: h3Yz73kEs0Ik8krixdK-awyXi_0W
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:36:41 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DN1PAhBzJsst5Euu9wxXiLSD6zW7T%26_now%3D1416339401%26_slt%3D7x15qf08%26_kid%3D1%26_ver%3D1%26_mac%3DeCm30eRIMyMVSjFaDB6BVzSllJaSSLoMFON5CxGCdjU.; expires=Sat, 19-Dec-2015 11:55:01 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:41:34 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:34 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:34 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:41:34 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:41:34 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=1792991328546ba0eeaa8096.04486990&oauth_timestamp=1416339694&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=UxmjtZwdWPgeHOfHxuauRZcSGRU%3D
+    [header_size] => 526
+    [request_size] => 583
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.17756
+    [namelookup_time] => 0.029403
+    [connect_time] => 0.031568
+    [pretransfer_time] => 0.03166
+    [size_upload] => 170
+    [size_download] => 34
+    [speed_download] => 191
+    [speed_upload] => 957
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.177514
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: RAkzd2QbgH4ll6rWxh2eP8SqpMvT
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:41:34 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3D7j66GSk19-VYZca6KRsG8kAOcmm0%26_now%3D1416339694%26_slt%3DbZE918Mo%26_kid%3D1%26_ver%3D1%26_mac%3DkWNc0SMQQhR_1khW88rHidafYGtnUGnOp3E1UO6XlJo.; expires=Sat, 19-Dec-2015 11:59:54 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:41:35 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:35 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:35 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:41:35 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:41:35 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=430268678546ba0efb89120.13486339&oauth_timestamp=1416339695&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=9mVIw17vq3Vl%2FB455c5ZOao46Qw%3D
+    [header_size] => 526
+    [request_size] => 584
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.168925
+    [namelookup_time] => 0.005888
+    [connect_time] => 0.008192
+    [pretransfer_time] => 0.008253
+    [size_upload] => 170
+    [size_download] => 34
+    [speed_download] => 201
+    [speed_upload] => 1006
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.168865
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: eyQqnAORwPKSya80jdQFLopvI7XX
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:41:35 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DgdG8vZda4xE8681RhmDw1AUDLEt9%26_now%3D1416339695%26_slt%3D4amwE10G%26_kid%3D1%26_ver%3D1%26_mac%3DskJ8J2-3lTovdKGBKaKxcVu-JvfET4ryZoLWpTxQS6U.; expires=Sat, 19-Dec-2015 11:59:55 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:41:36 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:36 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:36 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:41:36 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:41:36 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=160859180546ba0f08a0992.46675910&oauth_timestamp=1416339696&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=pMOexQsaT8KnKyNy5dshyL0iqKU%3D
+    [header_size] => 526
+    [request_size] => 582
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.149384
+    [namelookup_time] => 0.005636
+    [connect_time] => 0.007908
+    [pretransfer_time] => 0.008026
+    [size_upload] => 170
+    [size_download] => 34
+    [speed_download] => 227
+    [speed_upload] => 1138
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.149299
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: 67_beidoS8wwvMmSz-3PE_3CnJmv
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:41:36 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DGR89T-qng5Fa3r2bA-v4-KyokI3x%26_now%3D1416339696%26_slt%3DgiWDDZiK%26_kid%3D1%26_ver%3D1%26_mac%3Dp9nanzrQe5XEv-2IxbzpbIrbL2YRmodC6Mg0KDrKAdY.; expires=Sat, 19-Dec-2015 11:59:56 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 19:41:37 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_KEY - assumed 'OAUTH_CONSUMER_KEY' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:37 UTC] PHP Notice:  Use of undefined constant OAUTH_CONSUMER_SECRET - assumed 'OAUTH_CONSUMER_SECRET' in /home/wolfdev1/public_html/web_app/apis/etsy/api_call.php on line 8
+[18-Nov-2014 19:41:37 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 19:41:37 UTC] oauth_problem=consumer_key_unknown
+[18-Nov-2014 19:41:37 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=OAUTH_CONSUMER_KEY&oauth_signature_method=HMAC-SHA1&oauth_nonce=1628825098546ba0f144dc60.98866947&oauth_timestamp=1416339697&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=9YiEa9WPgIXzyk2AKXCPfSq8xLc%3D
+    [header_size] => 526
+    [request_size] => 583
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.249563
+    [namelookup_time] => 0.005676
+    [connect_time] => 0.008062
+    [pretransfer_time] => 0.008136
+    [size_upload] => 170
+    [size_download] => 34
+    [speed_download] => 136
+    [speed_upload] => 681
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.249502
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: EUo0vVSFBm7aRPDguPnNK3BmwcyF
+X-Error-Detail: oauth_problem=consumer_key_unknown
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 19:41:37 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DEMsixlsy_P4Hr1Mp8uuppeUtVIgu%26_now%3D1416339697%26_slt%3DzKERhTuu%26_kid%3D1%26_ver%3D1%26_mac%3D75PDsi6pgsVr3Hr4pnm1yRVUHMkKHMsm8oqxRx88gkk.; expires=Sat, 19-Dec-2015 11:59:57 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 20:35:06 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 20:35:06 UTC] oauth_problem=token_rejected
+[18-Nov-2014 20:35:06 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=476868917546bad7a8596a6.02622044&oauth_timestamp=1416342906&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=6rt5u%2FurNP4pALbm2ncp1Z8ExOY%3D
+    [header_size] => 520
+    [request_size] => 590
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.209597
+    [namelookup_time] => 0.005231
+    [connect_time] => 0.007412
+    [pretransfer_time] => 0.007475
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 133
+    [speed_upload] => 811
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.209476
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: hvjCATY7C52u57-w-R6zoY8O9toD
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 20:35:06 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DkDrlY2C76G-JAU-bajoExrK5JERG%26_now%3D1416342906%26_slt%3DhEmubPAA%26_kid%3D1%26_ver%3D1%26_mac%3DbKmVoB2GF_OKr0Z_5f8zBXrB2Gq6339-0GCbIWFGKZA.; expires=Sat, 19-Dec-2015 12:53:26 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 20:35:08 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 20:35:08 UTC] oauth_problem=token_rejected
+[18-Nov-2014 20:35:08 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=723357190546bad7ca5a646.15619282&oauth_timestamp=1416342908&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=IeTa7orhJmULur4gWuf3ypm2SmE%3D
+    [header_size] => 520
+    [request_size] => 588
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.146142
+    [namelookup_time] => 0.005246
+    [connect_time] => 0.007509
+    [pretransfer_time] => 0.007566
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 191
+    [speed_upload] => 1163
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.146084
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: 1NPPkHg88gF1FVZJ5ZZi5EXZ_vkr
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 20:35:08 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DOG7DXenXM9Kzbi-mWOMhIPH64K4h%26_now%3D1416342908%26_slt%3D8Jveh5e3%26_kid%3D1%26_ver%3D1%26_mac%3DN0YNhru1DFH7P0iqej0rXdKdIXLVv6ltB-9XtCpRnzo.; expires=Sat, 19-Dec-2015 12:53:28 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 20:35:09 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 20:35:09 UTC] oauth_problem=token_rejected
+[18-Nov-2014 20:35:09 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=619216075546bad7dab3e33.78426514&oauth_timestamp=1416342909&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=R76QZweHOsBuMijypJbfgl8hFrA%3D
+    [header_size] => 520
+    [request_size] => 588
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.137884
+    [namelookup_time] => 0.006099
+    [connect_time] => 0.008198
+    [pretransfer_time] => 0.008257
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 203
+    [speed_upload] => 1232
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.137825
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: R89kLguyq4t8_hUTp8ML3JkPxtNA
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 18 Nov 2014 20:35:09 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DhtaQytQEC0DmMO0C_dIOG0gbubfD%26_now%3D1416342909%26_slt%3D8uqyJT9g%26_kid%3D1%26_ver%3D1%26_mac%3DJjZI0Y66m6oUIJnjJajzCuN6yfrlFhSqx_GII4yzWFo.; expires=Sat, 19-Dec-2015 12:53:29 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[18-Nov-2014 20:49:51 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[18-Nov-2014 20:49:51 UTC] oauth_problem=token_rejected
+[18-Nov-2014 20:49:51 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=995859620546bb0ef6aaa94.02853784&oauth_timestamp=1416343791&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=Jl%2FlU2knBlZ2UOqUggUJSlx8z54%3D
+    [header_size] => 713
+    [request_size] => 590
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.189973
+    [namelookup_time] => 0.005889
+    [connect_time] => 0.048264
+    [pretransfer_time] => 0.048383
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 147
+    [speed_upload] => 894
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.189895
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DV7rLoJr7xGwlKNrIxlAQ9cGjGybX%26_now%3D1416343791%26_slt%3DNAJEko9B%26_kid%3D1%26_ver%3D1%26_mac%3D0CdBQ3gzKi2qdUfmYW8s9gBq24sc-RMJ4ys3S0PYeTA.; expires=Sat, 19-Dec-2015 13:08:11 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: MY5RjB6KZ6dO2y-__qVxxdAirVYQ
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Tue, 18 Nov 2014 20:49:51 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-dfw1826-DFW
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416343791.547078848,VS0,VE95
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 15:43:26 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 15:43:26 UTC] oauth_problem=token_rejected
+[19-Nov-2014 15:43:27 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=700721626546cba9ebea144.46082634&oauth_timestamp=1416411806&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=tLVq8mVBpig8yI%2BnK333XGC4m0M%3D
+    [header_size] => 520
+    [request_size] => 590
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.194782
+    [namelookup_time] => 0.02964
+    [connect_time] => 0.031939
+    [pretransfer_time] => 0.032043
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 143
+    [speed_upload] => 872
+    [download_content_length] => -1
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.194714
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+X-Etsy-Request-Uuid: GOffCR3u-b7KDLpBBn6ZvkqAD9qF
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 19 Nov 2014 15:43:26 GMT
+Connection: close
+Set-Cookie: uaid=uaid%3DtuvPcfIi8hxoLyYEgHXXRmttxNRD%26_now%3D1416411806%26_slt%3DvGEMQr88%26_kid%3D1%26_ver%3D1%26_mac%3DEcbQIlu56qczBwSLAfLElRx9_ooTwECXYEtmcUnI-0Y.; expires=Sun, 20-Dec-2015 08:01:46 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+
+)
+
+[19-Nov-2014 16:35:59 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:35:59 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:35:59 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1478754961546cc6ef007930.85512382&oauth_timestamp=1416414959&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=T5QqyvrNvd93yahXEzbVK15%2FGl0%3D
+    [header_size] => 714
+    [request_size] => 591
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.24783
+    [namelookup_time] => 0.030098
+    [connect_time] => 0.05056
+    [pretransfer_time] => 0.050663
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 112
+    [speed_upload] => 685
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.24773
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DSywQ4iVHOxa__1g10PxxG6PIKibV%26_now%3D1416414959%26_slt%3Dte_Bd93s%26_kid%3D1%26_ver%3D1%26_mac%3DKb0NRtrNKA-1frYMwb_O0_xbWzYGwGKCKT63o8rSggY.; expires=Sun, 20-Dec-2015 08:54:19 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: 2hrIhQ4mlWzMyOBQzZDOBMZSWzAl
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:35:59 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-sjc3125-SJC
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414959.101674080,VS0,VE130
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:00 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:00 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:00 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1024836715546cc6f018c143.42800115&oauth_timestamp=1416414960&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=9LRttKz93tH8yOSNOMRPn1LTPTw%3D
+    [header_size] => 714
+    [request_size] => 589
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.149263
+    [namelookup_time] => 0.00413
+    [connect_time] => 0.014044
+    [pretransfer_time] => 0.014093
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 187
+    [speed_upload] => 1138
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.149157
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3Dr6ClGTA9aUgoE5Ba_WZQ7MXrcDpw%26_now%3D1416414960%26_slt%3DX1pe9r09%26_kid%3D1%26_ver%3D1%26_mac%3Dx3PdyI6IKVmgMcNoCH4sTdYXsMzsXgVfi6RvO-KxI0Q.; expires=Sun, 20-Dec-2015 08:54:20 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: Duzs8EcbZORJz4kIgHjrQQFaH_pf
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:00 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1430-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414960.155215979,VS0,VE111
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:01 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:01 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:01 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=766391022546cc6f0ddaf40.86367960&oauth_timestamp=1416414960&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=W5wPHfarg4qGgfFTY0aBewRepRk%3D
+    [header_size] => 714
+    [request_size] => 588
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.205635
+    [namelookup_time] => 0.004188
+    [connect_time] => 0.026027
+    [pretransfer_time] => 0.026101
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 136
+    [speed_upload] => 826
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.205577
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3D0wrB8w0Ru5hXBXoJQJZOv76S-zLh%26_now%3D1416414961%26_slt%3DAkubKRqk%26_kid%3D1%26_ver%3D1%26_mac%3DvgdY-MttvyTxKXTgjEWt-deu7HIYYcoe4Uv1KUs2Y7I.; expires=Sun, 20-Dec-2015 08:54:21 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: mH4BmZnwopsoFTYLNzMozLphvUhk
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:01 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-sjc3120-SJC
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414961.019109249,VS0,VE113
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:01 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:01 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:01 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=782588508546cc6f1319b93.32716054&oauth_timestamp=1416414961&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=764OIFWQuP9vRxh5yRiPZ6wjw38%3D
+    [header_size] => 714
+    [request_size] => 588
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.169891
+    [namelookup_time] => 0.004189
+    [connect_time] => 0.014114
+    [pretransfer_time] => 0.014206
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 164
+    [speed_upload] => 1000
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.169819
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DpzyBBJNQc6ulZWYbEHclZ85bgKd5%26_now%3D1416414961%26_slt%3DuX8-MiBs%26_kid%3D1%26_ver%3D1%26_mac%3D6Zekz6WmYl0mLk1VRQyZRu2StIUS2RsJ6EV5OODqTa8.; expires=Sun, 20-Dec-2015 08:54:21 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: v5GtnuQq4Rz8lSX3eXzPXyQJ8aiu
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:01 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1433-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414961.283168793,VS0,VE111
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:01 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:01 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:01 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=578331623546cc6f15df019.24337121&oauth_timestamp=1416414961&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=xw3me9FikZez%2BdqA4AqvELkdpYE%3D
+    [header_size] => 714
+    [request_size] => 590
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.161726
+    [namelookup_time] => 0.004127
+    [connect_time] => 0.025895
+    [pretransfer_time] => 0.025942
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 173
+    [speed_upload] => 1051
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.161689
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3D2uS-fs1HN8yBRcvlVm992hr31ck3%26_now%3D1416414961%26_slt%3DW63WEcz2%26_kid%3D1%26_ver%3D1%26_mac%3DwLK7IsuT5oPvNkoF9LhvARb2x-GwuMU2bdgVDxPJEEk.; expires=Sun, 20-Dec-2015 08:54:21 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: ye2AZ_HVAiNaQBkajv9EK_fuCBPp
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:01 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-sjc3132-SJC
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414961.451203585,VS0,VE109
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:28 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:28 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:28 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1964925046546cc70cba3855.20368129&oauth_timestamp=1416414988&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=WyR9rCD1OMfDmRDHGrzYqjB7v%2Bs%3D
+    [header_size] => 714
+    [request_size] => 591
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.17192
+    [namelookup_time] => 0.004195
+    [connect_time] => 0.014077
+    [pretransfer_time] => 0.014118
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 162
+    [speed_upload] => 988
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.171875
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3D9RQG8IzR-pgtAUxK7hA2e3QLKn5R%26_now%3D1416414988%26_slt%3Dn2TKVfgr%26_kid%3D1%26_ver%3D1%26_mac%3Dr5xHeV-AAd-194gDzvjjJI1AYnIl7gRAWXyG_zdI4G0.; expires=Sun, 20-Dec-2015 08:54:48 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: 5yVWspsk0JMXjNdTEull1Ep1rmb_
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:28 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1424-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414988.851220369,VS0,VE106
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:30 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:30 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:30 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1223745877546cc70dd8c672.62417225&oauth_timestamp=1416414989&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=y5Rpv%2FZtamffjJ%2BGJCzElp2xBJc%3D
+    [header_size] => 714
+    [request_size] => 593
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.168032
+    [namelookup_time] => 0.004121
+    [connect_time] => 0.014505
+    [pretransfer_time] => 0.014541
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 166
+    [speed_upload] => 1011
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.167981
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3D4jImY57Q-XXzPuQvrYD7CVtXFdAp%26_now%3D1416414990%26_slt%3DlFsCWV-V%26_kid%3D1%26_ver%3D1%26_mac%3DV6nolRB13zya9ACeyznYiRGC1wR17_FwH_m5Yf2QqM8.; expires=Sun, 20-Dec-2015 08:54:50 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: XA_oRi1HFuEXC6cP4bK2-glJFh9r
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:30 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1433-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414989.968336582,VS0,VE110
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:30 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:30 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:30 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=878039809546cc70e839c12.12957482&oauth_timestamp=1416414990&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=IVlemu6lmU3n6ypiHznGtlCIed4%3D
+    [header_size] => 714
+    [request_size] => 588
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.15315
+    [namelookup_time] => 0.004192
+    [connect_time] => 0.014061
+    [pretransfer_time] => 0.014129
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 182
+    [speed_upload] => 1110
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.153111
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3D_nAX7HJjgTXJZ3PeGUMxd_tEDLMd%26_now%3D1416414990%26_slt%3Du8XEGvLR%26_kid%3D1%26_ver%3D1%26_mac%3DSsFhoEOGQx0IBhcDw1oN-nxjJho8zwlSpEd3ZU_I-j4.; expires=Sun, 20-Dec-2015 08:54:50 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: sBb1q73-IuZp8nbwVLn5urs88gB3
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:30 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1421-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414990.594259501,VS0,VE118
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:30 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:30 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:30 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1995843767546cc70eb8a3e5.86066172&oauth_timestamp=1416414990&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=dH9om5Lhigmyqeuy38CdRGYyLgU%3D
+    [header_size] => 714
+    [request_size] => 589
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.214609
+    [namelookup_time] => 0.004166
+    [connect_time] => 0.016749
+    [pretransfer_time] => 0.01682
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 130
+    [speed_upload] => 792
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.21457
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DnNa72gtursMIc-yf9Co4gUkrjCjY%26_now%3D1416414990%26_slt%3DcR7GTFiJ%26_kid%3D1%26_ver%3D1%26_mac%3DZvqoPKM1W3uELzA8H0Ta0wHH3-KEObyKB2YKI3Y1ZMU.; expires=Sun, 20-Dec-2015 08:54:50 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: ADQLA1IC12p1qvoJOSawhwlmomdR
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:30 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1433-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414990.882000446,VS0,VE110
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:31 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:31 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:31 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=742578139546cc70f0370a3.53755186&oauth_timestamp=1416414991&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=xkDZkziH%2FI9JR%2BwI%2FB1JlrliT9I%3D
+    [header_size] => 714
+    [request_size] => 594
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.13477
+    [namelookup_time] => 0.00419
+    [connect_time] => 0.014893
+    [pretransfer_time] => 0.014964
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 207
+    [speed_upload] => 1261
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.134731
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DBp3xgB6WdN4j5tuNR3Mkm4ERapbM%26_now%3D1416414991%26_slt%3Dbo-RfmiD%26_kid%3D1%26_ver%3D1%26_mac%3DM8tUmpVTF1RE3w-PJBhP0gFoWfV-2mQW7rDaLSCt-q8.; expires=Sun, 20-Dec-2015 08:54:51 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: EHAP_oaUZyf94pVJTlptHpAYTnRw
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:31 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1428-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414991.066412210,VS0,VE109
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:31 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:31 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:31 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1201958666546cc70f32e656.35568647&oauth_timestamp=1416414991&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=A7nlh%2FIOARhY8w6gwtIWMh%2FRYto%3D
+    [header_size] => 714
+    [request_size] => 593
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.144965
+    [namelookup_time] => 0.004118
+    [connect_time] => 0.016338
+    [pretransfer_time] => 0.016379
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 193
+    [speed_upload] => 1172
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.144955
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DkFrOLHacKY17rwR2fqA79gmKQ0xi%26_now%3D1416414991%26_slt%3DaSyIhWbA%26_kid%3D1%26_ver%3D1%26_mac%3DA500ZVFAaif6PFSe7gIdTpdy0AJG7N0Dai8pTveOR-U.; expires=Sun, 20-Dec-2015 08:54:51 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: V2_1gOq1ef4KaJtGsEX79Yhc1bTs
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:31 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1423-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414991.264524937,VS0,VE112
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:31 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:31 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:31 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=389439273546cc70f5cbc17.20324452&oauth_timestamp=1416414991&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=3ex%2BMa8VPwKMNGHm%2BrtnSpsvqKU%3D
+    [header_size] => 714
+    [request_size] => 592
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.141765
+    [namelookup_time] => 0.004134
+    [connect_time] => 0.015428
+    [pretransfer_time] => 0.015464
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 197
+    [speed_upload] => 1199
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.14171
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DETJLNeRJ8Vs6_SciWVIFbiPU-thu%26_now%3D1416414991%26_slt%3DILhLyDWH%26_kid%3D1%26_ver%3D1%26_mac%3DsrLprR2ZWHVJ57prCiaXNxgSi_qPXlSPY61N2Pl_fMY.; expires=Sun, 20-Dec-2015 08:54:51 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: 7Au9LyCHIryCeozLyvxZFVuEOy7N
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:31 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1429-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414991.434796810,VS0,VE107
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:31 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:31 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:31 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1999737204546cc70f843b15.70587439&oauth_timestamp=1416414991&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=sANAwzmqpT5%2BC2vs%2BT%2BisrE%2BlXU%3D
+    [header_size] => 714
+    [request_size] => 597
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.172531
+    [namelookup_time] => 0.004212
+    [connect_time] => 0.016151
+    [pretransfer_time] => 0.016223
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 162
+    [speed_upload] => 985
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.172485
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DRh3sXR-4FjDNjETcLdfbyRoLEDIH%26_now%3D1416414991%26_slt%3Dx80YqBme%26_kid%3D1%26_ver%3D1%26_mac%3DTefxwWhZyl2-gqFXc65tyFP87kEDeFfa615XtX_NLOg.; expires=Sun, 20-Dec-2015 08:54:51 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: emBdCvIiz72cq4BVBqtMJkDCq1rQ
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:31 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1422-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414991.608603239,VS0,VE116
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:32 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:32 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:32 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1502696744546cc70fd0b6c8.77158357&oauth_timestamp=1416414991&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=CiOL%2BN9%2BWb2L%2FHPrmj9GL3BSH8k%3D
+    [header_size] => 714
+    [request_size] => 595
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.181035
+    [namelookup_time] => 0.00419
+    [connect_time] => 0.014722
+    [pretransfer_time] => 0.014794
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 154
+    [speed_upload] => 939
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.180994
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3Dk04soflJ56sFPtfnObq6yyzCaRZ1%26_now%3D1416414992%26_slt%3DGk64lhrN%26_kid%3D1%26_ver%3D1%26_mac%3DxTmNTBPvUZmKmNWKxVOyg90Vq9JFynAAb3H6s9gxN9M.; expires=Sun, 20-Dec-2015 08:54:52 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: XwY7i-7RERC8JyToTGmURAuJ-x8G
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:32 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1434-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414991.947303772,VS0,VE109
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 16:36:32 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 16:36:32 UTC] oauth_problem=token_rejected
+[19-Nov-2014 16:36:32 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1077324531546cc710277284.36096273&oauth_timestamp=1416414992&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=BU6dPnCMIH4JsQxaGDnFhjLu%2BL8%3D
+    [header_size] => 714
+    [request_size] => 591
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.143873
+    [namelookup_time] => 0.00413
+    [connect_time] => 0.015932
+    [pretransfer_time] => 0.015969
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 194
+    [speed_upload] => 1181
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.143838
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3Dv5S5YEg_CZGl1ZuBVzfhzomHiQPX%26_now%3D1416414992%26_slt%3DLZMKHqsu%26_kid%3D1%26_ver%3D1%26_mac%3DUefDNzIxQuG_MmkkYPALVBmoB0sLMRtRJdI5nVwZdAY.; expires=Sun, 20-Dec-2015 08:54:52 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: MrZ8wyhV9L-K9VWoL6ShvG7r0WGp
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 16:36:32 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-lax1423-LAX
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416414992.217831135,VS0,VE109
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 19:12:53 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 19:12:53 UTC] oauth_problem=token_rejected
+[19-Nov-2014 19:12:53 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=607062759546cebb5726993.23773549&oauth_timestamp=1416424373&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=Soph59ynbOYmsSHI12UqiNoNpxI%3D
+    [header_size] => 713
+    [request_size] => 588
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.217188
+    [namelookup_time] => 0.005267
+    [connect_time] => 0.060416
+    [pretransfer_time] => 0.060489
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 128
+    [speed_upload] => 782
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.21713
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DfSpgVOc2qw4Lcn1Am1O26Emyqeu3%26_now%3D1416424373%26_slt%3Dkbgt_0jc%26_kid%3D1%26_ver%3D1%26_mac%3D5txdPGt23ZClB3ewueUTO-nm_sebAEl3wdlU3RSoiuQ.; expires=Sun, 20-Dec-2015 11:31:13 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: 8wXl3EnSokXvVhZ2NNdNiApINqIM
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 19:12:53 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-ord1734-ORD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416424373.612266302,VS0,VE78
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 19:12:53 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 19:12:53 UTC] oauth_problem=token_rejected
+[19-Nov-2014 19:12:53 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1377828936546cebb5a329f6.70330957&oauth_timestamp=1416424373&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=vlVKSDiwVYzBDMdepczg0jvGD5I%3D
+    [header_size] => 713
+    [request_size] => 589
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.238664
+    [namelookup_time] => 0.005688
+    [connect_time] => 0.111001
+    [pretransfer_time] => 0.111123
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 117
+    [speed_upload] => 712
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.238599
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DU5pornYMUpmiu0qnyIGbir7P5Csk%26_now%3D1416424373%26_slt%3DEEeEN6Ou%26_kid%3D1%26_ver%3D1%26_mac%3DCu6PnvH5N0ZVjBC9lV155_hON0nWm-QVjTCgz-V_Agk.; expires=Sun, 20-Dec-2015 11:31:13 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: _QhYm_wCzuHlSrovIrt1loJVMy0W
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 19:12:53 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-ord1729-ORD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416424373.848159075,VS0,VE62
+Vary: Accept-Encoding
+
+)
+
+[19-Nov-2014 19:12:54 UTC] Invalid auth/bad request (got a 403, expected HTTP/1.1 20X or a redirect)
+[19-Nov-2014 19:12:54 UTC] oauth_problem=token_rejected
+[19-Nov-2014 19:12:54 UTC] Array
+(
+    [http_code] => 403
+    [content_type] => text/plain;charset=UTF-8
+    [url] => http://openapi.etsy.com/v2/listings?oauth_consumer_key=wcals2jz7gosh66vbclcz56f&oauth_signature_method=HMAC-SHA1&oauth_nonce=1904852444546cebb6292d92.83768227&oauth_timestamp=1416424374&oauth_version=1.0&oauth_token=wcals2jz7gosh66vbclcz56f&oauth_signature=i4Wul9Teo7Te6lqLTBX5G7kIlOI%3D
+    [header_size] => 713
+    [request_size] => 589
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.200031
+    [namelookup_time] => 0.004181
+    [connect_time] => 0.059422
+    [pretransfer_time] => 0.059495
+    [size_upload] => 170
+    [size_download] => 28
+    [speed_download] => 139
+    [speed_upload] => 849
+    [download_content_length] => 28
+    [upload_content_length] => 170
+    [starttransfer_time] => 0.199989
+    [redirect_time] => 0
+    [headers_recv] => HTTP/1.1 403 Forbidden
+Server: Apache
+Set-Cookie: uaid=uaid%3DWMz7QEv-Mmv6UtU-T2ZS_ZMF9Mgp%26_now%3D1416424374%26_slt%3DSiiyZdm7%26_kid%3D1%26_ver%3D1%26_mac%3DvsBOhUQEFS3sYUW1BPfKNrmO7wIIze2uaq_tMgk-yN0.; expires=Sun, 20-Dec-2015 11:31:14 GMT; Max-Age=34186700; path=/; domain=.etsy.com; httponly
+X-Etsy-Request-Uuid: zDOpx_XFu07AFQU9sGykdjkNfRVe
+X-Error-Detail: oauth_problem=token_rejected
+Cache-Control: private
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Accept-Ranges: bytes
+Date: Wed, 19 Nov 2014 19:12:54 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-ord1727-ORD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1416424374.304463387,VS0,VE60
+Vary: Accept-Encoding
+
+)
+

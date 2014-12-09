@@ -1,0 +1,111 @@
+body #wrapper {
+	width: 80%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+#header {
+	width: 100%;
+}
+
+#header h1 {
+	text-align: center;
+}
+
+#header p {
+	text-align: center;
+	font-size: 16px;
+}
+
+.pending_products_list:hover {
+	background: #EFEFEF;
+}
+
+.pending_products_list_header {
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+}
+
+.form-add-vendor .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px;
+	font-size: 14px;
+	display: block !important; 
+}
+
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+	margin-bottom: 20px;
+}
+
+.table>tbody>tr>td {
+	border-top: none;
+}
+
+.edit-entry {
+	margin-top: -3px;
+	padding: 1px 4px;
+}
+
+.edit-product input {
+	width: 100%;
+}
+
+a.thumbnail img {
+	height: 80px;
+	width: 87px;
+	min-width: 87px;
+}
+
+.btn-dashboard {
+	width: 100%;
+	height: 140px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+
+.btn-dashboard:hover {
+	/*text-shadow: 1px 1px 2px #232323;*/
+}
+
+.btn-dashboard span {
+	font-size: 40px;
+	width: 100px;
+	margin: 0px auto;
+	display: block;
+	margin-top: 20%;
+	padding-bottom: 20px;
+}
+
+.btn-dashboard .badge {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	width: 30px;
+	text-align: center;
+	height: 20px;
+	font-size: 16px;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+.panel-table {
+	border: none;
+}
+
+#data_table thead, #data_table tfoot  {
+	background: #428bca;
+	color: #FFFFFF;
+}
+
+.new-message {
+	width: 100%;
+	margin-bottom: 20px;
+}
